@@ -1,4 +1,4 @@
-# 📚 DidactiPDF (Nombre en clave)
+# 📚 ENRIQUE
 
 > Transforma textos desorganizados y apuntes universitarios en material de estudio estructurado, didáctico y listo para imprimir en segundos.
 
