@@ -1,36 +1,46 @@
-# 📚 ENRIQUE
+# DocuMind AI (Nombre en código)
+**Transformando contenido crudo en experiencias de aprendizaje inteligentes.**
 
-> Transforma textos desorganizados y apuntes universitarios en material de estudio estructurado, didáctico y listo para imprimir en segundos.
+## 📖 Visión del Proyecto
+DocuMind es una plataforma B2B (SaaS) diseñada para instituciones educativas privadas, academias, bootcamps y creadores de contenido. Nuestra herramienta toma materiales de estudio desorganizados o en bruto y, mediante inteligencia artificial, los transforma instantáneamente en documentos PDF altamente didácticos, estructurados y enriquecidos con asistentes de estudio integrados.
 
-## 💡 La Idea
-Como estudiantes, constantemente recibimos información desorganizada: transcripciones de clases, PDFs con bloques de texto intermssinables, o apuntes tomados a las apuradas. **ENRIQUE** es una herramienta web que resuelve este problema. El usuario simplemente pega su texto "crudo", y nuestra aplicación utiliza Inteligencia Artificial para extraer los conceptos clave, estructurarlos de forma didáctica (con títulos, viñetas, notas importantes) y devolver un archivo PDF con diseño editorial listo para estudiar offline.
+No somos un simple conversor de texto a PDF; somos un motor de optimización pedagógica.
 
-## 🎯 ¿Por qué es útil? (El Problema que Resolvemos)
-1. **Ahorro de tiempo:** Estructurar apuntes a mano toma horas. La app lo hace en segundos.
-2. **Mejora del aprendizaje:** Un texto con formato didáctico (jerarquía visual, resaltados) facilita la retención de información.
-3. **Accesibilidad offline:** Al entregar un PDF optimizado, el estudiante puede imprimirlo o leerlo en cualquier dispositivo sin depender de internet.
+## 🎯 Público Objetivo (B2B)
+*   **Institutos Terciarios y Universidades Privadas:** Que buscan modernizar sus apuntes y estandarizar la calidad de su material bibliográfico.
+*   **Academias de Programación e Idiomas:** Que necesitan iterar y actualizar sus contenidos rápidamente sin depender de un equipo de diseño editorial completo.
+*   **Creadores de Cursos Independientes:** Que desean ofrecer material descargable de calidad premium (valor agregado) a sus alumnos con cero esfuerzo manual.
 
-## 🛠️ Stack Tecnológico (Planificado)
-Este proyecto es Full-Stack, ideal para demostrar habilidades completas de desarrollo:
-* **Frontend:** HTML, CSS (Tailwind/Bootstrap), Vanilla JavaScript.
-* **Backend:** Node.js con Express.
-* **Integración AI:** API de LLM (Ej: Google Gemini o OpenAI) para el procesamiento del texto.
-* **Generación de PDF:** Librerías de Node como `puppeteer` o `pdf-lib`.
+## ✨ Características Principales
 
-## 💰 Modelo de Negocio y Monetización (A futuro)
-El proyecto está pensado para escalar como un producto SaaS (Software as a Service) bajo un modelo **Freemium**:
+### 1. Estructuración Pedagógica Automática
+El motor de IA ingiere texto plano, desgrabaciones de clases o apuntes caóticos y devuelve un documento con jerarquía visual: títulos claros, viñetas, resaltado de conceptos clave y bloques de atención.
 
-* **Tier Gratuito (Freemium):** Para atraer tráfico y usuarios, la plataforma permitirá **2 conversiones gratuitas por día** por IP o por usuario registrado. Esto cubre la necesidad básica de un estudiante promedio y demuestra el valor del producto.
-* **Tier Premium (Suscripción o Pago por uso):**
-  * Conversiones ilimitadas o paquetes de conversiones.
-  * Procesamiento de textos mucho más largos (ej. libros enteros o transcripciones de 3 horas).
-  * Personalización del PDF (elegir paletas de colores, tipografías, agregar el logo de su universidad o marca de agua).
-  * Posibilidad de subir archivos `.docx` o `.pdf` directamente en lugar de solo pegar texto.
+### 2. Tutoría y Enriquecimiento Integrado (Study AI)
+La plataforma no solo formatea, sino que expande el conocimiento:
+*   **Investigación Complementaria:** Agrega recuadros de "Para saber más" con información de contexto que el profesor no incluyó originalmente.
+*   **Glosarios Dinámicos:** Extracción y definición automática de jerga técnica.
+*   **Analogías Didácticas:** Traducción de conceptos de alta complejidad a ejemplos cotidianos.
+
+### 3. Exportación Profesional
+Generación de documentos PDF con diseño editorial limpio, optimizados tanto para lectura en pantallas (tablets/monitores) como para impresión en papel (A4).
+
+## 💼 Modelo de Negocio Propuesto
+El enfoque está puesto en la venta corporativa (B2B) con ingresos recurrentes:
+1.  **Tier Inicial (Creadores):** Suscripción mensual con un límite de conversiones y páginas generadas al mes, con marca de agua discreta de la plataforma.
+2.  **Tier Profesional (Academias):** Mayor volumen de conversiones, PDFs en marca blanca (con el logo y los colores institucionales del cliente).
+3.  **Tier Institucional:** Integración vía API directamente en las plataformas (LMS) de las instituciones, facturación por uso de servidor y volumen de alumnos.
+
+## 🛠 Stack Tecnológico Inicial (MVP)
+*   **Backend:** Node.js + Express (Servidor rápido, asíncrono y escalable).
+*   **Inteligencia Artificial:** Gemini API (Procesamiento de lenguaje natural, estructuración de contenido e investigación de contexto).
+*   **Generación de Documentos:** Librería de renderizado (Puppeteer / PDF-lib) para inyectar los resultados de la IA en plantillas HTML/CSS predefinidas y exportarlas a PDF.
+*   **Frontend (Dashboard Cliente):** Interfaz web simple con HTML, CSS (Tailwind) y Vanilla JavaScript para la carga de documentos y selección de estilos.
 
 ## 🚀 Hoja de Ruta (Roadmap)
-- [ ] **Fase 1:** Levantar el servidor base (Node.js/Express) y conectar una ruta simple de prueba.
-- [ ] **Fase 2:** Crear la interfaz de usuario (Frontend) con un área de texto y un botón de "Generar PDF".
-- [ ] **Fase 3:** Integrar el Backend con una API de Inteligencia Artificial para formatear el texto entrante.
-- [ ] **Fase 4:** Implementar el motor de creación de PDF en el servidor y lograr que el usuario lo descargue.
-- [ ] **Fase 5:** Implementar sistema de límite de uso (2 por día) y preparar el terreno para registro de usuarios.# ENRIQUE
-# ENRIQUE
+- [x] Definición del alcance y pivotaje a modelo B2B.
+- [ ] Fase 1: Setup del servidor Express y creación del endpoint de recepción de texto.
+- [ ] Fase 2: Integración de la API de Gemini (Prompt Engineering para estructuración y Study AI).
+- [ ] Fase 3: Diseño de la plantilla CSS maestra y generación del primer archivo PDF de prueba.
+- [ ] Fase 4: Desarrollo de la interfaz de usuario (Dashboard) para pegar el texto y descargar el resultado.
+- [ ] Fase 5: Implementación del sistema de control de uso (Rate Limiting por cliente).
