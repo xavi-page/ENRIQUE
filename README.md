@@ -33,3 +33,4 @@ El proyecto está pensado para escalar como un producto SaaS (Software as a Serv
 - [ ] **Fase 3:** Integrar el Backend con una API de Inteligencia Artificial para formatear el texto entrante.
 - [ ] **Fase 4:** Implementar el motor de creación de PDF en el servidor y lograr que el usuario lo descargue.
 - [ ] **Fase 5:** Implementar sistema de límite de uso (2 por día) y preparar el terreno para registro de usuarios.# ENRIQUE
+# ENRIQUE
