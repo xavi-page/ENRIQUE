@@ -3,7 +3,7 @@
 > Transforma textos desorganizados y apuntes universitarios en material de estudio estructurado, didáctico y listo para imprimir en segundos.
 
 ## 💡 La Idea
-Como estudiantes, constantemente recibimos información desorganizada: transcripciones de clases, PDFs con bloques de texto intermssinables, o apuntes tomados a las apuradas. **DidactiPDF** es una herramienta web que resuelve este problema. El usuario simplemente pega su texto "crudo", y nuestra aplicación utiliza Inteligencia Artificial para extraer los conceptos clave, estructurarlos de forma didáctica (con títulos, viñetas, notas importantes) y devolver un archivo PDF con diseño editorial listo para estudiar offline.
+Como estudiantes, constantemente recibimos información desorganizada: transcripciones de clases, PDFs con bloques de texto intermssinables, o apuntes tomados a las apuradas. **ENRIQUE** es una herramienta web que resuelve este problema. El usuario simplemente pega su texto "crudo", y nuestra aplicación utiliza Inteligencia Artificial para extraer los conceptos clave, estructurarlos de forma didáctica (con títulos, viñetas, notas importantes) y devolver un archivo PDF con diseño editorial listo para estudiar offline.
 
 ## 🎯 ¿Por qué es útil? (El Problema que Resolvemos)
 1. **Ahorro de tiempo:** Estructurar apuntes a mano toma horas. La app lo hace en segundos.
