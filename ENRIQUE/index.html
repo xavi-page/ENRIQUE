@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ENRIQUE | Optimización pedagógica</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="dashboard">
+
+        <!-- =========================
+             SIDEBAR
+        ========================== -->
+
+        <aside class="sidebar">
+
+            <div class="sidebar-logo">
+                <span class="logo-icon">E</span>
+                <span class="logo-text">ENRIQUE</span>
+            </div>
+
+
+            <nav class="sidebar-navigation">
+
+                <p class="navigation-title">
+                    Navegación
+                </p>
+
+                <a href="#" class="navigation-item active">
+                    <span class="navigation-icon">.</span>
+                    <span>Instituciones</span>
+                </a>
+
+                <a href="#" class="navigation-item">
+                    <span class="navigation-icon">.</span>
+                    <span>Academias</span>
+                </a>
+
+                <a href="#" class="navigation-item">
+                    <span class="navigation-icon">.</span>
+                    <span>Alumnos</span>
+                </a>
+
+            </nav>
+
+
+            <div class="sidebar-bottom">
+
+                <a href="#" class="navigation-item">
+                    <span class="navigation-icon">.</span>
+                    <span>Configuraciones</span>
+                </a>
+
+
+                <div class="user-profile">
+
+                    <div class="user-avatar">
+                        Enr
+                    </div>
+
+                    <div class="user-information">
+                        <strong>Enrique</strong>
+                        <span>Admin</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </aside>
+
+
+        <!-- =========================
+             CONTENIDO DEL DASHBOARD
+        ========================== -->
+
+        <div class="dashboard-content">
+
+
+            <!-- =========================
+                 TOPBAR
+            ========================== -->
+
+            <header class="topbar">
+
+                <div class="search-container">
+
+                    <span class="search-icon">.</span>
+
+                    <input
+                        type="search"
+                        placeholder="Search content, courses, or users..."
+                    >
+
+                </div>
+
+
+                <div class="topbar-actions">
+
+                    <button class="notification-button">
+                        .
+                        <span class="notification-dot"></span>
+                    </button>
+
+                    <button class="new-project-button">
+                        Nuevo proyecto
+                    </button>
+
+                </div>
+
+            </header>
+
+
+            <!-- =========================
+                 MAIN
+            ========================== -->
+
+            <main>
+
+
+                <!-- INTRODUCCIÓN -->
+
+                <section class="intro">
+
+                    <h2>
+                        Transformá contenido crudo en experiencias de aprendizaje
+                    </h2>
+
+                    <p>
+                        Subí o pegá tu contenido y ENRIQUE lo transformará
+                        en material educativo estructurado y enriquecido.
+                    </p>
+
+                </section>
+
+
+                <!-- EDITOR -->
+
+                <section class="editor">
+
+                    <h2>
+                        Crear material educativo
+                    </h2>
+
+                    <label for="contenido">
+                        Pegá tu contenido
+                    </label>
+
+                    <textarea
+                        id="contenido"
+                        name="contenido"
+                        placeholder="Pegá acá tus apuntes, transcripciones o material de estudio..."
+                    ></textarea>
+
+                    <button id="generarPDF">
+                        Generar PDF
+                    </button>
+
+                </section>
+
+
+            </main>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
